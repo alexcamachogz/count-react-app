@@ -6,4 +6,4 @@ import './index.css'
 // referencia al root, donde se visualizan los componentes
 const divRoot = document.querySelector('#root')
 
-ReactDOM.render(<PrimeraApp />, divRoot)
+ReactDOM.render(<PrimeraApp saludo='¡Hola Mundo!' />, divRoot)
