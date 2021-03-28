@@ -10,3 +10,17 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+button {
+  background-color: aliceblue;
+  border-color: #71737a;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  margin: 0 10px;
+  outline: 0;
+  padding: 10px;
+}
+
+.reset {
+  width: 60px;
+}
