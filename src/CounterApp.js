@@ -23,7 +23,7 @@ const CounterApp = ({ value }) => {
   return (
     <>
       <h1>🔢 CounterApp</h1>
-      <br />
+      <br/>
       <button onClick={handleSub}>➖</button>
       {counter}
       <button onClick={handleAdd}>➕</button>
@@ -33,7 +33,7 @@ const CounterApp = ({ value }) => {
 }
 
 CounterApp.propTypes = {
-  value: PropTypes.number.isRequired
+  value: PropTypes.number.isRequired,
 }
 
 export default CounterApp
