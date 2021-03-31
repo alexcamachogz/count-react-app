@@ -17,9 +17,7 @@ describe('Testing <PrimeraApp />', function () {
     const saludo = 'Hola, soy Alex'
     const subs = 'Mi primera app en React ⚛️'
     const wrapper = shallow(<PrimeraApp saludo={saludo} subtitulo={subs}/>)
-
     const textoParrafo = wrapper.find('p').text()
-
     expect(textoParrafo).toBe(subs)
   })
 })

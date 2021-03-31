@@ -25,7 +25,7 @@ const CounterApp = ({ value }) => {
       <h1>🔢 CounterApp</h1>
       <br/>
       <button onClick={handleSub}>➖</button>
-      {counter}
+      <code>{counter}</code>
       <button onClick={handleAdd}>➕</button>
       <button className='reset' onClick={handleReset}>🚫</button>
     </>
