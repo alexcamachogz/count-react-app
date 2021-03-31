@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <PrimeraApp /> Should be show <PrimeraApp /> properly 1`] = `
+<Fragment>
+  <h1>
+     
+    Hola, soy Alex
+     
+  </h1>
+  <p>
+    Mi primera app en React ⚛️
+  </p>
+  <code>
+    Desarrollado por: 
+    <small>
+      Alex Camacho
+    </small>
+  </code>
+</Fragment>
+`;

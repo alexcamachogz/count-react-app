@@ -10,9 +10,9 @@ const PrimeraApp = ({ saludo, subtitulo }) => {
     <>
       <h1> {saludo} </h1>
       <p>{subtitulo}</p>
-      <p>
+      <code>
         Desarrollado por: <small>{name}</small>
-      </p>
+      </code>
     </>
   )
 }
