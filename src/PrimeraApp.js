@@ -8,7 +8,7 @@ const PrimeraApp = ({ saludo, subtitulo }) => {
 
   return (
     <>
-      <h1>{saludo}</h1>
+      <h1> {saludo} </h1>
       <p>{subtitulo}</p>
       <p>
         Desarrollado por: <small>{name}</small>
@@ -18,11 +18,11 @@ const PrimeraApp = ({ saludo, subtitulo }) => {
 }
 
 PrimeraApp.propTypes = {
-  saludo: PropTypes.string.isRequired
+  saludo: PropTypes.string.isRequired,
 }
 
 PrimeraApp.defaultProps = {
-  subtitulo: 'Mi primera app en React ⚛️'
+  subtitulo: 'Mi primera app en React ⚛️',
 }
 
 export default PrimeraApp
